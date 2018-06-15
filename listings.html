@@ -1,53 +1,76 @@
 <!Doctype html>
 <html>
 <head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+
+    <!-- Start Top Bar -->
+    <div class="top-bar">
+        <div class="top-bar-left">
+            <ul class="menu">
+                <li class="menu-text">Roxy Theater</li>
+                <li><a href="listings.html">Movies</a></li>
+            </ul>
+        </div>
+        <div class="top-bar-right">
+            <!-- <ul class="menu">
+            <li><a href="#">Three</a></li>
+            <li><a href="#">Four</a></li>
+            <li><a href="#">Five</a></li>
+            <li><a href="#">Six</a></li>-->
+            </ul>
+        </div>
+    </div>
+    <!-- End Top Bar -->
     <style>
-    div.gallery {
-    border: 1px solid #ccc;
-    }
+        div.gallery {
+            border: 1px solid #ccc;
+        }
 
-    div.gallery:hover {
-    border: 1px solid #777;
-    }
+            div.gallery:hover {
+                border: 1px solid #777;
+            }
 
-    div.gallery img {
-    width: 100%;
-    height: auto;
-    }
+            div.gallery img {
+                width: 100%;
+                height: auto;
+            }
 
-    div.desc {
-    padding: 15px;
-    text-align: center;
-    }
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
 
-    * {
-    box-sizing: border-box;
-    }
+        * {
+            box-sizing: border-box;
+        }
 
-    .responsive {
-    padding: 0 6px;
-    float: left;
-    width: 24.99999%;
-    }
+        .responsive {
+            padding: 0 6px;
+            float: left;
+            width: 24.99999%;
+        }
 
-    @media only screen and (max-width: 700px) {
-    .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-    }
-    }
+        @media only screen and (max-width: 700px) {
+            .responsive {
+                width: 49.99999%;
+                margin: 6px 0;
+            }
+        }
 
-    @media only screen and (max-width: 500px) {
-    .responsive {
-    width: 100%;
-    }
-    }
+        @media only screen and (max-width: 500px) {
+            .responsive {
+                width: 100%;
+            }
+        }
 
-    .clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-    }
+        .clearfix:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
     </style>
     <title>Movies</title>
 
@@ -56,12 +79,13 @@
     <header></header>
     <div class="top-bar-right">
         <!-- <ul class="menu">
-        <li><a href="#">Three</a></li>
-        <li><a href="#">Four</a></li>
-        <li><a href="#">Five</a></li>
-        <li><a href="#">Six</a></li>-->
+    <li><a href="#">Three</a></li>
+    <li><a href="#">Four</a></li>
+    <li><a href="#">Five</a></li>
+    <li><a href="#">Six</a></li>-->
         </ul>
 
+        <!-- Uncle Drew Picture-->
         <div class="responsive">
             <div class="gallery">
                 <a target="_blank" href="uncleDrew.html">
@@ -70,14 +94,16 @@
             </div>
         </div>
 
+        <!-- Incredibles Picture-->
         <div class="responsive">
             <div class="gallery">
-                <a target="_blank" href="incredibiles.html">
+                <a target="_blank" href="incred.html">
                     <img src="img/Incredibles.jpeg" alt="" width="302" height="399.5">
                 </a>
             </div>
         </div>
 
+        <!-- Ocean8 Picture-->
         <div class="responsive">
             <div class="gallery">
                 <a target="_blank" href="ocean8.html">
