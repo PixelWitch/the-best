@@ -1,6 +1,54 @@
 <!Doctype html>
 <html>
 <head>
+    <style>
+    div.gallery {
+    border: 1px solid #ccc;
+    }
+
+    div.gallery:hover {
+    border: 1px solid #777;
+    }
+
+    div.gallery img {
+    width: 100%;
+    height: auto;
+    }
+
+    div.desc {
+    padding: 15px;
+    text-align: center;
+    }
+
+    * {
+    box-sizing: border-box;
+    }
+
+    .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+    }
+
+    @media only screen and (max-width: 700px) {
+    .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+    }
+    }
+
+    @media only screen and (max-width: 500px) {
+    .responsive {
+    width: 100%;
+    }
+    }
+
+    .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+    </style>
     <title>Movies</title>
     <link rel="stylesheet" href="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
 </head>
@@ -13,22 +61,45 @@
                 <li><a href="listings.html">Movies</a></li>
             </ul>
         </div>
-        <div class="top-bar-right">
-            <!-- <ul class="menu">
-            <li><a href="#">Three</a></li>
-            <li><a href="#">Four</a></li>
-            <li><a href="#">Five</a></li>
-            <li><a href="#">Six</a></li>-->
-            </ul>
+    <div class="top-bar-right">
+        <!-- <ul class="menu">
+        <li><a href="#">Three</a></li>
+        <li><a href="#">Four</a></li>
+        <li><a href="#">Five</a></li>
+        <li><a href="#">Six</a></li>-->
+        </ul>
+
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="uncleDrew.html">
+                    <img src="img/uncle drew.jfif" alt="" width="302" height="399.5">
+                </a>
+            </div>
         </div>
+
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="incredibiles.html">
+                    <img src="img/Incredibles.jpeg" alt="" width="302" height="399.5">
+                </a>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="ocean8.html">
+                    <img src="img/O8-Teaser-Poster.jpg" alt="" width="302" height="399.5">
+                </a>
+            </div>
+        </div>
+
     </div>
     <!-- End Top Bar -->
+    <!--<a href="uncleDrew.html"><img src="img/uncle drew.jfif" alt="" width="258" height="386.51"/></a>
 
-    <a href="index.html"><img src="img/uncle drew.jfif" alt="" /></a>
+    <a href="index.html"></a><img src="img/Incredibles.jpeg" alt="" width="258" height="386.51" /></a>
 
-    <a href="index.html"></a><img src="img/Incredibles.jpeg" alt="" /></a>
-
-    <a href="index.html"></a><img src="img/O8-Teaser-Poster.jpg" alt="" /></a>
+    <a href="index.html"></a><img src="img/O8-Teaser-Poster.jpg" alt="" width="258" height="386.51" /></a>-->
 
     <footer></footer>
 </body>
